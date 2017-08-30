@@ -43,19 +43,6 @@ def elementize(word):
 		return "No spelling found"
 	return manip
 
-'''with open('words.txt', 'r') as f:
-	data = f.read().split()
-max_length = 0
-max_word = ""
-for word in data:
-	if len(word) > max_length and can_elementize(word):
-		max_length = max(len(word), max_length)
-		if max_length == len(word):
-			max_word = word
-			#print("new max!!")
-print(max_word)
-print(elementize(max_word))'''
-
 word = "0"
 while len(word) > 0:
 	word = input("Enter a word: ")
